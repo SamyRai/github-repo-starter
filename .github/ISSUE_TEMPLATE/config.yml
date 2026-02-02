@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions / Support
+    # Replace with your repo's discussions page, or the template instantiation will substitute {{OWNER}} and {{REPO_NAME}} if used.
+    url: https://github.com/{{OWNER}}/{{REPO_NAME}}/discussions
+    about: Please ask and answer questions here.

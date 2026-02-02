@@ -1,0 +1,31 @@
+name: "Security report"
+about: "Report a security vulnerability — please follow the guidance in SECURITY.md before including sensitive information"
+title: "[Security] {short description}"
+labels: [security]
+body:
+  - type: markdown
+    attributes:
+      value: "If this report contains sensitive details (proof-of-concept, exploit code, or private data) do NOT post them publicly. Follow `SECURITY.md` and contact the security address listed there. For cross-project/3rd-party issues, indicate that in your report."
+  - type: input
+    id: short_desc
+    attributes:
+      label: "Short description"
+      description: "One-line summary"
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce / Proof of concept"
+      description: "If this is sensitive, prefer encrypted attachments as per `SECURITY.md`"
+      required: false
+  - type: input
+    id: impact
+    attributes:
+      label: "Impact assessment"
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: "Contact email"
+      description: "Optional — you can include an encrypted contact if preferred"
+      required: false

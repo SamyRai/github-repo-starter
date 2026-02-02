@@ -1,0 +1,9 @@
+# Default owners for everything
+
+- @{{GITHUB_USERNAME}}  # Replace `{{GITHUB_USERNAME}}` with your GitHub handle or team, e.g. `my-org/maintainers`
+
+## Owners by path (adjust to your team handles)
+
+/docs/ @{{GITHUB_USERNAME}}
+/.github/ @{{GITHUB_USERNAME}}
+/src/ @{{GITHUB_USERNAME}}
